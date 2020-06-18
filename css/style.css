@@ -584,10 +584,10 @@ h3,
 h4,
 h5,
 h6 {
- color:#5f52dc
+ color:purple
 }
 ::-moz-selection {
- background-color:#5f52dc
+ background-color:purple
 }
 .btn.s-btn,
 .c1-bg,
@@ -602,10 +602,10 @@ h6 {
 .social-icon a:hover,
 .theme-input-group input,
 ::selection {
- background-color:#5f52dc
+ background-color:purple
 }
 .c1-bo {
- border-color:#5f52dc!important
+ border-color:purple!important
 }
 .c2,
 .footer .copyright-footer .copyright-text a:hover,
@@ -1205,14 +1205,14 @@ a:hover {
 #mobile_menu .mobile-main-menu.app .nav li.current-menu-parent>a,
 .app_c1,
 .header .header-main.app .main-menu .nav li a:hover {
- color:#8ec9f8
+ color:purple
 }
 .app_c1-bg,
 .theme-input-group.app-banner button {
- background-color:#8ec9f8
+ background-color:purple
 }
 .app_c1-bo {
- border-color:#8ec9f8!important
+ border-color:purple!important
 }
 .app-btn.btn-book,
 .app-btn.btn-crm,
@@ -1668,47 +1668,8 @@ body {
 .radius-40 {
  border-radius:40px
 }
-.animate-btn.btn-book:after,
-.animate-btn.btn-crm:after,
-.animate-btn.btn-crs:after,
-.animate-btn.btn-pay:after,
-.animate-btn.e-btn:after,
-.animate-btn.m-btn:after,
-.btn,
-.btn-book,
-.btn-crm,
-.btn-crs,
-.btn-pay,
-.btn.animate-btn:after,
-.countdown-wrapper .countdown-tag,
-.e-btn,
-.m-btn,
-.radius-50,
-.theme-input-group input {
- border-radius:50px
-}
-.earn-path-feature,
-.feature-wrapper:after,
-.radius-60 {
- border-radius:60px
-}
-.cart-btn span,
-.dot-line.style--two:before,
-.dot-line:after,
-.list-check.host li:after,
-.modal-header .modal-title .modal-title-icon,
-.modal-header button.close,
-.owl-carousel.book-review-slider .owl-nav button,
-.owl-carousel.customer-review-slider .owl-nav button,
-.pkg .pkg-list>span,
-.radius,
-.single-service.style--three.pay .service-icon,
-.single-service.style--two>span,
-.social-icon a,
-.testimonial-single .tst-content .ts-img img,
-.video-play-button {
- border-radius:50%
-}
+
+
 #mobile_menu,
 .accordion>.card,
 .box-shadow,
@@ -2453,7 +2414,7 @@ body {
  width:26px
 }
 .owl-carousel.app-testimonial-slider .owl-nav button:hover .svg g path {
- stroke:#8ec9f8
+ stroke:purple
 }
 .owl-carousel.app-testimonial-slider .owl-nav button.owl-next {
  left:auto;
@@ -2624,9 +2585,7 @@ textarea.theme-input-style {
   margin:0
  }
 }
-.theme-input-group.app-banner {
- border-radius:50px
-}
+
 .theme-input-group.app-banner input {
  height:58px;
  background:#fff;
@@ -2643,7 +2602,6 @@ textarea.theme-input-style {
 .theme-input-group.app-banner button {
  padding:20px 35px;
  color:#fff;
- border-radius:0 50px 50px 0
 }
 .theme-input-group.app-banner button:hover {
  color:#fff
@@ -2981,7 +2939,7 @@ textarea.theme-input-style {
 .theme-input-group.affiliate .entry-content select:focus,
 .theme-input-group.affiliate .page--content select:focus,
 .theme-input-group.affiliate .theme-input-style:focus {
- background-color:#5f52dc
+ background-color:purple
 }
 .ov-hidden {
  overflow:hidden
@@ -3207,7 +3165,6 @@ form.widget.widget_search .theme-input-group .theme-input-style {
  background-color:transparent;
  height:40px;
  color:#707070;
- border-radius:0
 }
 .comment-content form.newsletter-form .theme-input-group select::-webkit-input-placeholder,
 .comment-content form.search-form .theme-input-group select::-webkit-input-placeholder,
@@ -3456,7 +3413,6 @@ form.widget.widget_search .theme-input-group .submit-btn {
  top:0;
  width:calc(400% - 15px);
  height:100%;
- border-radius:150px 0 0 0;
  z-index:-1
 }
 @media only screen and (max-width:767px) {
@@ -4512,7 +4468,6 @@ form.widget.widget_search .theme-input-group .submit-btn {
  position:absolute;
  width:120px;
  height:120px;
- border-radius:50%;
  -webkit-box-shadow:inset 0 0 0 1px rgba(255,255,255,.1);
  box-shadow:inset 0 0 0 1px rgba(255,255,255,.1)
 }
@@ -4547,7 +4502,6 @@ form.widget.widget_search .theme-input-group .submit-btn {
 .loader-line-mask .loader-line {
  width:120px;
  height:120px;
- border-radius:50%;
  -webkit-box-shadow:inset 0 0 0 1px rgba(255,255,255,.5);
  box-shadow:inset 0 0 0 1px rgba(255,255,255,.5)
 }
@@ -4577,7 +4531,7 @@ form.widget.widget_search .theme-input-group .submit-btn {
 .e-btn:hover,
 .m-btn:hover {
  color:#fff;
- background:#5f52dc
+ background:purple
 }
 .btn.two:hover,
 .two.btn-book:hover,
@@ -4587,7 +4541,7 @@ form.widget.widget_search .theme-input-group .submit-btn {
 .two.e-btn:hover,
 .two.m-btn:hover {
  background:#fff;
- color:#5f52dc
+ color:purple
 }
 .btn-book:focus,
 .btn-crm:focus,
@@ -4824,7 +4778,6 @@ form.widget.widget_search .theme-input-group .submit-btn {
  height:100%;
  content:"";
  position:absolute;
- border-radius:0 5px 5px 0;
  z-index:-1;
  background:#ff896b;
  background:-webkit-gradient(linear,left top,left bottom,from(#ff896b),to(#ff6773));
@@ -5016,7 +4969,6 @@ form.widget.widget_search .theme-input-group .submit-btn {
  margin-left:15px
 }
 .btn-crm {
- border-radius:6px;
  background:#57548d
 }
 .btn-crm:hover {
@@ -6399,13 +6351,13 @@ form.widget.widget_search .theme-input-group .submit-btn {
 .header .header-main.sticky .main-menu .nav>li.current-menu-item>a,
 .header .header-main.sticky .main-menu .nav>li.current-menu-parent>a,
 .header .header-main.sticky .main-menu .nav>li:hover>a {
- color:#5f52dc!important
+ color:purple!important
 }
 .header .header-main.sticky .main-menu .nav>li>a {
  color:#292929!important
 }
 .header .header-main.sticky .main-menu .nav>li>a:hover {
- color:#5f52dc!important
+ color:purple!important
 }
 .header .header-main .logo {
  line-height:1
@@ -6736,7 +6688,7 @@ form.widget.widget_search .theme-input-group .submit-btn {
 .header .header-main.app #menu-button span,
 .header .header-main.app #menu-button span:after,
 .header .header-main.app #menu-button span:before {
- background:#8ec9f8
+ background:purple
 }
 .header .header-main.app.sticky {
  margin-top:0
@@ -6744,10 +6696,10 @@ form.widget.widget_search .theme-input-group .submit-btn {
 .header .header-main.app.sticky .main-menu .nav>li.current-menu-item>a,
 .header .header-main.app.sticky .main-menu .nav>li.current-menu-parent>a,
 .header .header-main.app.sticky .main-menu .nav>li:hover>a {
- color:#8ec9f8!important
+ color:purple!important
 }
 .header .header-main.app.sticky .main-menu .nav>li>a:hover {
- color:#8ec9f8!important
+ color:purple!important
 }
 .header .header-main.app .main-menu {
  margin-right:25px
@@ -6758,7 +6710,7 @@ form.widget.widget_search .theme-input-group .submit-btn {
 .header .header-main.app .main-menu .nav li.current-menu-item>a,
 .header .header-main.app .main-menu .nav li.current-menu-parent>a,
 .header .header-main.app .main-menu .nav li:hover>a {
- color:#8ec9f8
+ color:purple
 }
 .header .header-main.app2 {
  margin-top:20px
@@ -6895,7 +6847,7 @@ form.widget.widget_search .theme-input-group .submit-btn {
 .header .header-main .main-menu .nav li.current-menu-item>a,
 .header .header-main .main-menu .nav li.current-menu-parent>a,
 .header .header-main .main-menu .nav li:hover>a {
- color:#5f52dc
+ color:purple
 }
 .header .header-main .main-menu .nav li a {
  display:block;
@@ -9193,14 +9145,14 @@ form.widget.widget_search .theme-input-group .submit-btn {
  top:0
 }
 .swiper-slide.slide-active .dot-line {
- background:#5f52dc;
+ background:purple;
  -webkit-animation:fullHeight .5s linear 0s backwards;
  animation:fullHeight .5s linear 0s backwards
 }
 .swiper-slide.slide-active .dot-line:after {
  width:20px;
  height:20px;
- border:3px solid #5f52dc;
+ border:3px solid purple;
  left:-9px
 }
 .swiper-button-next,
@@ -10010,7 +9962,7 @@ form.widget.widget_search .theme-input-group .submit-btn {
  z-index:999
 }
 #slider span.one {
- border-color:#5f52dc
+ border-color:purple
 }
 #slider span.two {
  left:33.33%
@@ -10026,11 +9978,11 @@ form.widget.widget_search .theme-input-group .submit-btn {
  top:-1px;
  width:33.33%;
  height:4px;
- background:#5f52dc;
+ background:purple;
  position:absolute
 }
 #slider span.ui-slider-handle {
- border-color:#5f52dc;
+ border-color:purple;
  width:20px;
  height:20px;
  border-radius:50%;
@@ -12061,7 +12013,7 @@ form.widget.widget_search .theme-input-group .submit-btn {
 .testimonial-single.style--two .tst-content .content h5 {
  font-weight:600;
  font-size:18px;
- color:#5f52dc
+ color:purple
 }
 .testimonial-single.style--two .tst-content .content span {
  font-size:14px;
@@ -13900,4 +13852,56 @@ form.widget.widget_search .theme-input-group .submit-btn {
  display:inline-block;
  padding:5px;
  font-size:14px
+}
+
+
+.animated {
+  text-indent: 8px;
+}
+
+.animated span {
+  color: purple;
+  font-weight: bold;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  -ms-animation: topToBottom 5s infinite;
+  -webkit-animation: topToBottom 5s infinite;
+  animation: topToBottom 5s infinite;
+}
+
+.animated span:nth-child(2){
+  -ms-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.animated span:nth-child(3){
+  -ms-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.animated span:nth-child(4){
+  -ms-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.animated span:nth-child(5){
+  -ms-animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+
+@-webkit-keyframes topToBottom {
+  0%, 20% {opacity: 1} /* visible for 1s */
+  20.01%, 100% {opacity: 0} /* hidden for 4s */
+}
+
+.pricing{
+    padding: 25px;
+box-shadow: 1px 1px 8px 5px #f1dcf1;
+border-radius: 17px;
 }
