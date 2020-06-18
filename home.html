@@ -8,28 +8,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="shortcut icon" href="img/logo.png">
     <link
         href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700%7cUbuntu:300,300i,400,400i,500,500i,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="assets/plugins/swiper-slider/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.4-build.3588/angular.min.js"></script>
     <script src="js/app.js"></script>
+
 </head>
 
-<body class="container" style="max-width: 1140px;" ng-controller="homecontroller">
+<body class="container" ng-controller="homecontroller">
 
     <div class="offcanvas-overlay"></div>
     <div id="mobile_menu" class="offcanvas-panel">
         <div class="panel">
             <div class="offcanvas-header d-flex align-items-center justify-content-between">
-                <div class="d-flex align-items-center"> <a href="/" class="logo"> <img
-                            src="assets/images/app-logo.png" alt=""> </a></div>
-                <div class="offcanvas-close"> <img src="assets/images/icons/close.svg" class="svg" alt=""></div>
+                <div class="d-flex align-items-center"> <a href="index.html" class="logo"> <img src="img/logo.png"
+                            width="40" alt=""> </br><b>normalyz</b></a></div>
+                <div class="offcanvas-close"> <svg xmlns="http://www.w3.org/2000/svg" width="17.678" height="17.678"
+                        viewBox="0 0 17.678 17.678" class="svg replaced-svg">
+                        <g id="Group_2188" data-name="Group 2188" transform="translate(-1693.818 -1197.818)">
+                            <line id="Line_88" data-name="Line 88" x2="14" y2="14"
+                                transform="translate(1695.657 1199.657)" fill="none" stroke="#707070"
+                                stroke-linecap="round" stroke-width="2.6"></line>
+                            <line id="Line_89" data-name="Line 89" x1="14" y2="14"
+                                transform="translate(1695.657 1199.657)" fill="none" stroke="#707070"
+                                stroke-linecap="round" stroke-width="2.6"></line>
+                        </g>
+                    </svg></div>
             </div>
+           <div class="mobile-main-menu email">
+               <!--   <ul class="nav flex-column">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">OKR</a></li>
+                    <li><a href="index.html">Project Management</a></li>
+                    <li><a href="home-email.html">Performance review</a></li> 
+
+                    <li><a href="pricing.html">pricing</a></li>
+                    <li class=""> <a href="#">Blog</a></li>
+                    <li class=""><a href="#">Contact</a></li>
+
+
+                </ul>-->
+                <div class="header-btn book"> <a href="http://demo.normalyz.com" target="_blank" class="btn app-btn">Try for free</a></div>
+
+            </div> 
         </div>
     </div>
     <header class="header fixed-top">
@@ -37,18 +67,28 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-sm-4 col-8">
-                        <div class="logo"> <a href="/"> <img class="default-logo" width="40" src="images/logo.png"
-                                    data-rjs="2" alt=""> <img class="sticky-logo" width="40" src="images/logo.png"
-                                    data-rjs="2" alt=""> <span
-                                    style="padding-top:5px;display:block;font-weight: bold;">Normalyz</span></a></div>
+                        <div class="logo"> <a href="index.html"> <img class="default-logo" src="img/logo.png" width="40"
+                                    data-rjs="2" alt=""> <img class="sticky-logo" src="img/logo.png" width="40"
+                                    data-rjs="2" alt=""></br> <b>normalyz</b></a></div>
                     </div>
                     <div class="col-lg-10 col-sm-8 col-4">
                         <div id="menu-button" class="d-lg-none d-inline-block"> <span></span></div>
-                          <div class="menu-wrapper d-none d-lg-flex justify-content-end align-items-center">
-                            <div class="main-menu d-flex align-items-center justify-content-end">
-                               Its Free till August!!
-                            </div>
-                            <div class="header-btn book"> <a href="http://demo.normalyz.com" target="_blank" class="btn app-btn">Try!</a></div>
+                        <div class="menu-wrapper d-none d-lg-flex justify-content-end align-items-center">
+                            <!-- <div class="main-menu d-flex align-items-center justify-content-end">
+                                <ul class="nav align-items-center">
+                                    <li class="current-menu-parent"><a href="#">Features</a> 
+                                         <ul class="sub-menu">
+                                            <li><a href="index.html">OKR</a></li>
+                                            <li><a href="index.html">Project Management</a></li>
+                                            <li><a href="home-email.html">Performance review</a></li>
+                                        </ul> 
+                                    </li>
+                                    <li><a href="pricing.html">pricing</a></li>
+                                    <li class=""> <a href="#">Blog</a></li>
+                                    <li class=""><a href="#">Contact</a></li>
+                                </ul>
+                            </div> -->
+                            <div class="header-btn book"> <a href="http://demo.normalyz.com" target="_blank" class="btn app-btn">Try for free</a></div>
                         </div>
                     </div>
                 </div>
@@ -61,95 +101,86 @@
                 <div class="col-lg-5 col-md-12">
                     <div class="banner-content">
                         <div class="content">
-                            <h1 class="fadeInLeft wow">Ideas are easy. </br>Execution matters.</h1>
+                            <h2 class="fadeInLeft wow">Ideas are easy. </br>Execution matters.</h2>
                             <p class="fadeInRight wow">
-                                Define Organizations, transparent planning and execution of objectives and Key results,
-                                and see employee performance in one click.
+
+                            <p class="animated">
+                                never loose sight of
+                                <span>OKR</span>
+                                <span>remote teams</span>
+                                <span>performance</span>
+                                <span>risk</span>
+                                <span>issues</span>
+                            </p>
+
                             </p>
                         </div>
                         <form class="fadeInLeft wow">
-                            <div ng-hide="showsignup" class="theme-input-group app-banner"> <input class="theme-input-style" type="email" ng-model="signup"
-                                    placeholder="Enter your email"> <button type="button" ng-click="signupaction();" class="btn submit-btn">try for
+                            <div ng-hide="showsignup" class="theme-input-group app-banner"> <input
+                                    class="theme-input-style" type="email" ng-model="signup"
+                                    placeholder="Enter your email"> <button type="button" ng-click="signupaction();"
+                                    class="btn submit-btn">try for
                                     free</button></div>
-                                </br>
-                                <div ng-show="showsignup" class="alert alert-primary" role="alert">
-                                    we got your back, someone will be in touch with you immediately!.
-                                  </div>
+                            </br>
+                            <div ng-show="showsignup" class="alert alert-primary" role="alert">
+                                we got your back, someone will be in touch with you immediately!.
+                            </div>
                         </form>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12">
-                    <div class="banner-img text-right" style="padding:20px"> <img src="images/arrow.png"
+                    <div class="banner-img text-right" style="padding:20px"> <img src="img/image4.jpg"
                             class="wow fadeInRight" style="margin:20px" data-rjs="2" alt=""></div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- <section class="pb-140 pt-140" data-bg-img="assets/images/feature/app-feature-bg.png">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-feature app">
-                        <div class="feature-icon"> <img src="assets/images/icons/appf1.png" data-rjs="2" alt=""></div>
-                        <div class="feature-content"> <a href="#">
-                                <h3>Get Organized</h3>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis risus mi.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-feature app">
-                        <div class="feature-icon"> <img src="images/stayontrack.PNG" data-rjs="2" alt=""></div>
-                        <div class="feature-content"> <a href="#">
-                                <h3>Stay On Track</h3>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis risus mi.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-feature app">
-                        <div class="feature-icon"> <img src="assets/images/icons/appf3.png" data-rjs="2" alt=""></div>
-                        <div class="feature-content"> <a href="#">
-                                <h3>Meet Deadlines</h3>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis risus mi.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+
     <section class="pt-140 pb-90">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class=""> <img src="images/organization.PNG" data-rjs="2" class="wow zoomOut"
-                            data-wow-duration="1.5s" data-wow-offset="200" alt=""></div>
+                    <div class=""> <img src="img/image1.jpg" data-rjs="2" class="wow zoomOut" data-wow-duration="1.5s"
+                            data-wow-offset="200" alt=""></div>
                 </div>
                 <div class="col-lg-6">
                     <div class="feature-content app">
-                        <h2 class="black">Manage Organization <br /> In One Place</h2>
-                        <p>Create your Organizations here in normalyz, then you will be able to Asign, and Track OKR's
-                            and employee performance</p>
+                        <h2 class="fadeInLeft wow"> Manage all in one place</h2>
+                        <p>
+                        <ul>
+                            <li>
+                                Create your organization structure.
+                            </li>
+                            <li>
+                                Transform strategic goals to objectives and key results.
+                            </li>
+                            <li>
+                                Project management
+                            </li>
+                            <li>
+                                provide performance review for employees
+                            </li>
+                        </ul>
+
+
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="pt-140 pb-120" data-bg-img="assets/images/feature/app-feature-bg.png">
+    <section class="pt-140 pb-120" data-bg-img="assets/img/feature/app-feature-bg.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 order-1 order-lg-0">
                     <div class="feature-content app style--two">
-                        <h2 class="black">Boost Up Your Team <br /> Productivity</h2>
+                        <h2 class="black">Boost Up Your Team <br /> Proudctivity</h2>
                         <p>Boost productivity of your employees by giving them Transparency, and showing them how much
-                            they contribute for organization growth</p>
+                            they contribute for organization growth. <b>Even if they work remote.</b></p>
                     </div>
                 </div>
                 <div class="col-lg-6 order-0 order-lg-1">
-                    <div class="feature-img app2"> <img src="images/org.PNG" data-rjs="2" class="wow zoomOut"
+                    <div class="feature-img app2"> <img src="img/image9.jpg" data-rjs="2" class="wow zoomOut"
                             data-wow-offset="200" data-wow-duration="1.5s" alt=""></div>
                 </div>
             </div>
@@ -165,42 +196,59 @@
                 </div>
             </div>
             <div class="row align-items-center">
-                <!-- <div class="col-lg-5 col-md-12">
-                    <div class="feature-img mb-md-60"> <img src="images/cta2.png" data-rjs="2" alt="">
+                <div class="col-lg-4 col-md-12">
+                    <div class="feature-img mb-md-60"> <img src="img/image7.jpg" data-rjs="2" alt="">
                     </div>
-                </div> -->
-                <div class="col-lg-12 col-md-12">
+                </div>
+                <div class="col-lg-8 col-md-12">
                     <div class="feature-content app2">
                         <ul class="list-how-works list-unstyled">
                             <li class="d-flex media">
-                                <div class="img"> <img src="images/cta1.png" width="300" class=" wow fadeInUp10"
-                                        data-wow-duration="1s" data-rjs="2" alt=""></div>
-                                <div class="content media-body"> <a href="#">
-                                        <h3>Objectives and Key results</h3>
-                                    </a>
-                                    <p>Plan and Create Objectives and key results based on your statergy and cascade
-                                        across organizations. </p>
+                                <div class="img"> <img src="img/image2.jpg" style="width:150px" class="wow fadeInUp10"
+                                        data-wow-duration="1s" data-rjs="2" alt=""
+                                        style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp10;">
                                 </div>
+                                <div class="content media-body"> <a href="#">
+                                    <h3>Objectives and Key results</h3>
+                                </a>
+                                <p>Plan and Create Objectives and key results based on your statergy and cascade
+                                    across organizations. </p>
+                            </div>
                             </li>
                             <li class="d-flex media">
-                                <div class="img"> <img src="images/feature3.png" width="300" class=" wow fadeInUp10"
-                                        data-wow-duration="1s" data-rjs="2" alt=""></div>
-                                <div class="content media-body"> <a href="#">
-                                        <h3>assign work</h3>
-                                    </a>
-                                    <p>Assign the objectives and Key results across individuals in organizations to make
-                                        progress.</p>
+                                <div class="img"> <img src="img/image6.jpg" style="width:150px"  class="wow fadeInUp10"
+                                        data-wow-duration="1s" data-rjs="2" alt=""
+                                        style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp10;">
                                 </div>
+                                <div class="content media-body"> <a href="#">
+                                    <h3>assign work</h3>
+                                </a>
+                                <p>Assign the objectives and Key results across individuals in organizations to make
+                                    progress.</p>
+                            </div>
                             </li>
                             <li class="d-flex media">
-                                <div class="img"> <img src="images/cta2.png" width="300" class=" wow fadeInUp10"
-                                        data-wow-duration="1s" data-rjs="2" alt=""></div>
-                                <div class="content media-body"> <a href="#">
-                                        <h3>Monitor Work Progress</h3>
-                                    </a>
-                                    <p>Trak the objective status and percentage complete from the view of individual,
-                                        teams, and organizations.</p>
+                                <div class="img"> <img src="img/image8.jpg" style="width:150px"  class="wow fadeInUp10"
+                                        data-wow-duration="1s" data-rjs="2" alt=""
+                                        style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp10;">
                                 </div>
+                                <div class="content media-body"> <a href="#">
+                                    <h3>Monitor Work Progress</h3>
+                                </a>
+                                <p>Trak the objective status and percentage complete from the view of individual,
+                                    teams, and organizations.</p>
+                            </div>
+                            </li>
+                            <li class="d-flex media">
+                                <div class="img"> <img src="img/image3.jpg" style="width:150px"  class="wow fadeInUp10"
+                                        data-wow-duration="1s" data-rjs="2" alt=""
+                                        style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp10;">
+                                </div>
+                                <div class="content media-body"> <a href="#">
+                                    <h3>Performance review</h3>
+                                </a>
+                                <p>Have one-on-one's, align employees with their career goals, and as a manager get performance review done in one click!!</p>
+                            </div>
                             </li>
                         </ul>
                     </div>
@@ -208,89 +256,123 @@
             </div>
         </div>
     </section>
-    <section class="pt-140 pb-140" style="text-align:center">
-        <img src="images/coach.jpg" class=" wow fadeInUp10" data-wow-duration="1s" data-rjs="2" alt=""></br></br>
-        A dedicated person </br> will be with you to coach and kickstart your </br>organization to start practicing OKR.
-    </section>
-    <!-- <section class="pt-140 pb-140">
+
+    <!-- <section class="pt-140 pb-140" data-bg-img="assets/img/feature/app-cta-bg.png">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-title">
-                        <h2 class="black">What Customer Says</h2>
-                    </div>
-                </div>
-            </div>
             <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="app-testimonial-slider owl-carousel" data-owl-nav="true"
-                        data-bg-img="assets/images/feature/app-testimonial-shape.png">
-                        <div class="single-slide">
-                            <p>Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at
-                                egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl,
-                                pharetra rutrum mauris. Vestibulum at massa dui.</p><img
-                                src="assets/images/feature/appt.png" data-rjs="2" alt="">
-                            <h4>George Sipe <span>CTO, ThemeLooks</span></h4>
-                        </div>
-                        <div class="single-slide">
-                            <p>Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at
-                                egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl,
-                                pharetra rutrum mauris. Vestibulum at massa dui.</p><img
-                                src="assets/images/feature/appt.png" data-rjs="2" alt="">
-                            <h4>George Sipe <span>CTO, ThemeLooks</span></h4>
-                        </div>
+                <div class="col-lg-10 text-center">
+                    <div class="cta-content app">
+                        <div class="row justify-content-center">
+                            <div class="col-10 col-sm-6 col-md-4 col-lg-3 d-flex flex-column pricing" style="margin:10px;">
+                              <div class="tx-100 lh-1"><i class="icon ion-ios-bicycle"></i></div>
+                              <h3 class="mg-b-25">Mercury</h3>
+                              <p class="tx-color-03 mg-b-25">upto 10 users
+                                  <ul style="text-align: left;">
+                                      <li>Unlimited OKR</li>
+                                      <li>Unlimited check-in</li>
+                                      <li>Graphs and charts</li>
+                                      <li>Google and Office 365 login</li>
+                                  </ul>
+                              </p>
+                            </br></br>  &nbsp;</br></br> &nbsp;</br></br> &nbsp;</br></br>
+                              <h1 class="tx-rubik tx-normal mg-b-50 mg-t-auto">$35.00</h1>
+                              <button class="btn btn-primary btn-block">Choose Plan</button>
+                            </div> col 
+                            <div class="col-10 col-sm-6 col-md-4 col-lg-3 mg-t-40 mg-sm-t-0 d-flex flex-column pricing" style="margin:10px;">
+                              <div class="tx-100 lh-1"><i class="icon ion-ios-car"></i></div>
+                              <h3 class="mg-b-25">Venus</h3>
+                              <p class="tx-color-03 mg-b-25">above 10 users
+                                <ul style="text-align: left;">
+                                    <li>Unlimited OKR</li>
+                                    <li>Unlimited check-in</li>
+                                    <li>Graphs</li>
+                                    <li>Performance review</li>
+                                    <li>Google and Office 365 login</li>
+                                    <li>custom reports</li>
+                                    <li>support</li>
+                                </ul>
+                            </p>
+                            <h1 class="tx-rubik tx-normal mg-b-50 mg-t-auto">$7.00/<span style="font-size: 30px;">user</span></h1>
+                              <button class="btn btn-primary btn-block">Choose Plan</button>
+                            </div>
+                             <div class="col-10 col-sm-6 col-md-4 col-lg-3 mg-t-40 mg-md-t-0 d-flex flex-column pricing" style="margin:10px;">
+                              <div class="tx-100 lh-1"><i class="icon ion-ios-boat"></i></div>
+                              <h3 class="mg-b-25">Corporate</h3>
+                              <p class="tx-color-03 mg-b-25">Nemo enim ipsam volu ptatem quia voluptas sit asp ernatur aut odit aut fugit, sed quia conse quuntur magni dolores eos qui ratione.</p>
+                              <h1 class="tx-rubik tx-normal mg-b-30 mg-t-auto">$199.00</h1>
+                              <button class="btn btn-primary btn-block">Choose Plan</button>
+                            </div>
+                            <div  class="alert alert-success" style="margin-top:40px" role="alert">
+                                <img src="img/virus.png" width="50" /> COVID made a chaos. we help you with easy onboarding </br>
+                                and yes we can talk about pricing. contact us!! 
+                            </div>
+                          </div>
+                         
                     </div>
                 </div>
             </div>
         </div>
     </section> -->
-    <section class="pt-140 pb-140" data-bg-img="assets/images/feature/app-cta-bg.png">
+    
+    <section class="pt-140 pb-140" data-bg-img="assets/img/feature/app-cta-bg.png">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
                     <div class="cta-content app">
                         <h2>Say hello !!</h2>
                         <p>leave your email, and we will get your time for demo!</p>
-                        <form
-                           
-                            class="newslatter-form">
-                            <div ng-hide="showdemo" class="theme-input-group app-banner cta"> <input class="theme-input-style" type="email" ng-model="demo"
-                                    placeholder="Enter your email" ng-model="signup"> 
-                                    <button type="submit" ng-click="demoaction()"  class="btn submit-btn">try for
-                                    free</button></div>
-                                    </br>
-                                    <div ng-show="showdemo" class="alert alert-primary" role="alert">
-                                        we got your back, someone will be in touch with you immediately!.
-                                      </div>
+                        <form class="newslatter-form">
+                            <div ng-hide="showdemo" class="theme-input-group app-banner cta"> <input
+                                    class="theme-input-style" type="email" ng-model="demo"
+                                    placeholder="Enter your email" ng-model="signup">
+                                <button type="submit" ng-click="demoaction()" class="btn submit-btn">try</button></div>
+                            </br>
+                            <div ng-show="showdemo" class="alert alert-primary" role="alert">
+                                we got your back, someone will be in touch with you immediately!.
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="footer app2">
+    <footer class="footer app2" >
         <div class="footer-main">
             <div class="container" style="text-align:center">
                 <p><b>Contact</b> </br>
                     gopi@normalyz.com</p>
             </div>
         </div>
-        <div class="footer-bottom">
+        <div class="footer-bottom" style="background-color: white;">
             <div class="container text-center"> ©copyright 2020 <a href="www.normalyz.com">Normalyz</a></div>
         </div>
     </footer> <a href="#" class="back-to-top app"> <i class="fa fa-angle-up"></i> </a>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
-<script>
-  function initFreshChat() {
-    window.fcWidget.init({
-      token: "37635a18-441b-4488-afa5-e8a632a6939f",
-      host: "https://wchat.freshchat.com"
-    });
-  }
-  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
-</script>
+
+
+    <div class="modal fade show" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 </body>
 
 </html>
